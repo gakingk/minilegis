@@ -166,17 +166,21 @@ def extrair_estrutura(soup, lei_nome, lei_numero, url):
         # ---------------------
         # Detecta Artigos
         # ---------------------
-        artigo_match = re.match(r"^Art\.?\s*(\d+)[ºo]?", linha, re.IGNORECASE)
+        artigo_match = re.match(r"^Art\.?\s*([\d\.]+)[ºo]?", linha, re.IGNORECASE)
         if artigo_match:
+            numero_bruto = artigo_match.group(1)
+            # remove pontos (Art. 1.000 -> 1000)
+            numero_limpo = numero_bruto.replace(".", "")
             artigo_atual = {
                 "tipo": "artigo",
-                "numero": artigo_match.group(1),
+                "numero": str(numero_limpo),
                 "texto": linha,
                 "paragrafos": [],
                 "incisos": []
             }
             unidades.append(artigo_atual)
             continue
+
 
         # ---------------------
         # Detecta Parágrafos
