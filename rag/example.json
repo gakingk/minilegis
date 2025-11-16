@@ -1,0 +1,19 @@
+{
+    "instruction": "Responda a pergunta utilizando apenas as informações dadas no contexto.", 
+    "input": 
+        "Pergunta:\nExplique o conteúdo do artigo 1 da Código de Defesa do Consumidor.
+        \n\n
+        Contexto:\nFonte: Código de Defesa do Consumidor - artigo 1\nArt. 1° O presente código 
+        estabelece normas de proteçăo e defesa do consumidor, de ordem pública e interesse social, 
+        nos termos dos arts. 5°, inciso XXXII, 170, inciso V, da Constituiçăo Federal e art. 48 de suas 
+        Disposiçőes Transitórias.\n---\nFonte correlata: Código de Defesa do Consumidor - art. 117\n
+    [...]",
+    "output": "O artigo 1 do Código de Defesa do Consumidor estabelece que o presente código visa 
+    proteger e defender os consumidores, de ordem pública e interesse social, nos termos dos arts. 
+    5°, inciso XXXII, 170, inciso V, da Constituição Federal e art. 48 de suas Disposições 
+    Transitórias. Isso significa que o código tem como objetivo principal proteger os direitos 
+    dos consumidores e promover o interesse social.", 
+    "lei_nome": "Código de Defesa do Consumidor", 
+    "artigo_numero": "1", 
+    "tipo_pergunta": "interpretativo"
+}
