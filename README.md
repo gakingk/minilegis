@@ -4,6 +4,7 @@ O minilegis é um projeto exploratório com o objetivo de testar a viabilidade d
 ## Estrutura do projeto
 - O minilegis é produto de um processo de tentativa e erro. A pasta ``llama_finetune`` conta com a minha primeira abordagem, que é um _fine-tune_ simples com perguntas e respostas. Acabei deixando essa abordagem de lado, mas quis incluir no histórico do projeto, portanto, instruções de como rodar ela estarão dentro do diretório dela, e não nesse principal.
 - A segunda e última abordagem que tomei está no diretório ``rag``. As instruções de como rodar ela estarão nesse arquivo principal, pois é a que é comentada no artigo de entrega
+- Dentro do diretório ``artigo`` tem o... artigo, que eu escrevi. No zip tem ele em .tex, mas deixei o pdf compilado também
 
 # Como rodar (aka. "Como replicar os resultados alcançados no artigo de entrega")
 - Instale os pacotes listados no ``requirements.txt``.
